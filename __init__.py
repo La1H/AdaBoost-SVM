@@ -1,13 +1,11 @@
-from methods import (
-    intinitialization_instance_categorization,
-    intinitialization_weight_adjustment,
-    predict_svm, 
-    find_true_false_index, 
-    confident, 
-    update_instance_categorization, 
-    update_weight_adjustment
+from svm.methods import (
+    dual_problem_quadratic_solver,
+    dual_problem_quadratic_program,
+    svm_lagrange_mutipliers,
+    svm_support_vectors, 
+    svm_weight,  
+    svm_bias 
 )
-from trainning_of_adaboost import (
-    fit, 
-    predict
-)
+
+from svm.application import (
+    fit)
